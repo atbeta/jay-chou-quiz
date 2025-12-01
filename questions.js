@@ -731,7 +731,7 @@ const questionBank = [
         options: ["发如雪", "青花瓷", "千里之外", "菊花台"],
         answer: 1,
         explanation: "这是《青花瓷》MV中的经典画面。",
-        media: "https://placehold.co/600x400/000000/FFFFFF/png?text=青花瓷MV截图"
+        media: "./images/青花瓷.jpg"
     },
     {
         id: 82,
@@ -740,7 +740,7 @@ const questionBank = [
         options: ["范特西", "叶惠美", "十一月的萧邦", "魔杰座"],
         answer: 0,
         explanation: "红色连帽衫是《范特西》专辑封面的经典造型。",
-        media: "https://placehold.co/600x400/FF0000/FFFFFF/png?text=范特西封面"
+        media: "./images/范特西.jpg"
     },
     {
         id: 83,
@@ -749,7 +749,7 @@ const questionBank = [
         options: ["小提琴", "吉他", "钢琴", "大提琴"],
         answer: 2,
         explanation: "钢琴是穿越时空的关键道具。",
-        media: "https://placehold.co/600x400/333333/FFFFFF/png?text=钢琴"
+        media: "./images/钢琴.jpg"
     },
     {
         id: 84,
@@ -758,7 +758,7 @@ const questionBank = [
         options: ["头文字D", "大灌篮", "逆战", "满城尽带黄金甲"],
         answer: 0,
         explanation: "藤原拓海的造型出自《头文字D》。",
-        media: "https://placehold.co/600x400/CCCCCC/000000/png?text=头文字D剧照"
+        media: "./images/头文字D.jpg"
     },
     {
         id: 85,
@@ -767,7 +767,7 @@ const questionBank = [
         options: ["哎哟，不错哦", "听妈妈的话", "再见", "加油"],
         answer: 0,
         explanation: "竖起大拇指是周杰伦的招牌动作，意为“哎哟，不错哦”。",
-        media: "https://placehold.co/600x400/FF00FF/FFFFFF/png?text=经典手势"
+        media: "./images/经典手势.jpg"
     },
     {
         id: 86,
@@ -776,7 +776,7 @@ const questionBank = [
         options: ["古筝", "二胡", "琵琶", "笛子"],
         answer: 0,
         explanation: "周杰伦经常在演唱会上演奏古筝，如《菊花台》。",
-        media: "https://placehold.co/600x400/8B4513/FFFFFF/png?text=古筝"
+        media: "./images/古筝.jpg"
     },
     {
         id: 87,
@@ -785,7 +785,7 @@ const questionBank = [
         options: ["无与伦比", "地表最强", "超时代", "魔天伦"],
         answer: 0,
         explanation: "这是2004年无与伦比演唱会的经典造型。",
-        media: "https://placehold.co/600x400/00008B/FFFFFF/png?text=无与伦比演唱会"
+        media: "./images/无与伦比演唱会.jpg"
     },
     {
         id: 88,
@@ -794,7 +794,7 @@ const questionBank = [
         options: ["告白气球", "彩虹", "星晴", "简单爱"],
         answer: 0,
         explanation: "图片中的气球暗示了歌曲《告白气球》。",
-        media: "https://placehold.co/600x400/FFC0CB/000000/png?text=气球"
+        media: "./images/告白气球.jpg"
     },
     {
         id: 89,
@@ -803,7 +803,7 @@ const questionBank = [
         options: ["天台爱情", "不能说的秘密", "大灌篮", "功夫灌篮"],
         answer: 0,
         explanation: "色彩鲜艳的复古风格是《天台爱情》的特色。",
-        media: "https://placehold.co/600x400/FFA500/000000/png?text=天台爱情海报"
+        media: "./images/天台爱情海报.jpg"
     },
     {
         id: 90,
@@ -812,7 +812,7 @@ const questionBank = [
         options: ["超跑女神", "飘移", "彩虹", "牛仔很忙"],
         answer: 0,
         explanation: "《超跑女神》MV中展示了多辆跑车。",
-        media: "https://placehold.co/600x400/FF0000/000000/png?text=跑车"
+        media: "./images/超跑女神.jpg"
     },
     {
         id: 91,
@@ -821,7 +821,7 @@ const questionBank = [
         options: ["咖啡", "奶茶", "可乐", "果汁"],
         answer: 1,
         explanation: "周杰伦非常喜欢喝奶茶。",
-        media: "https://placehold.co/600x400/D2691E/FFFFFF/png?text=奶茶"
+        media: "./images/奶茶.jpg"
     },
     {
         id: 92,
@@ -830,7 +830,7 @@ const questionBank = [
         options: ["魔杰座", "十二新作", "惊叹号", "跨时代"],
         answer: 0,
         explanation: "魔术师和小丑的形象代表了《魔杰座》。",
-        media: "https://placehold.co/600x400/4B0082/FFFFFF/png?text=魔杰座概念"
+        media: "./images/魔杰座.jpg"
     },
     {
         id: 93,
@@ -839,7 +839,7 @@ const questionBank = [
         options: ["兰亭序", "红尘客栈", "发如雪", "千里之外"],
         answer: 1,
         explanation: "客栈场景是《红尘客栈》MV的特色。",
-        media: "https://placehold.co/600x400/8B0000/FFFFFF/png?text=客栈场景"
+        media: "./images/红尘客栈.jpg"
     },
     {
         id: 94,
@@ -848,7 +848,7 @@ const questionBank = [
         options: ["惊天魔盗团2", "青蜂侠", "极限特工", "速度与激情"],
         answer: 0,
         explanation: "周杰伦参演了《惊天魔盗团2》。",
-        media: "https://placehold.co/600x400/000000/FFFFFF/png?text=惊天魔盗团2"
+        media: "./images/惊天魔盗团2.jpg"
     },
     {
         id: 95,
@@ -857,7 +857,7 @@ const questionBank = [
         options: ["LeBron 17", "Kyrie 6", "Air Jordan", "Curry 7"],
         answer: 0,
         explanation: "Nike曾推出LeBron 17周杰伦联名款。",
-        media: "https://placehold.co/600x400/FF4500/FFFFFF/png?text=篮球鞋"
+        media: "./images/LeBron 17.jpg"
     },
     {
         id: 96,
@@ -866,7 +866,7 @@ const questionBank = [
         options: ["听妈妈的话", "爷爷泡的茶", "爸我回来了", "外婆"],
         answer: 1,
         explanation: "茶具暗示了歌曲《爷爷泡的茶》。",
-        media: "https://placehold.co/600x400/006400/FFFFFF/png?text=茶具"
+        media: "./images/爷爷泡的茶.jpg"
     },
     {
         id: 97,
@@ -875,7 +875,7 @@ const questionBank = [
         options: ["八度空间", "叶惠美", "七里香", "依然范特西"],
         answer: 2,
         explanation: "军装造型是《七里香》专辑的经典造型之一。",
-        media: "https://placehold.co/600x400/556B2F/FFFFFF/png?text=军装造型"
+        media: "./images/七里香.jpg"
     },
     {
         id: 98,
@@ -884,7 +884,7 @@ const questionBank = [
         options: ["大提琴", "吉他", "琵琶", "竖琴"],
         answer: 0,
         explanation: "大提琴在《安静》、《不能说的秘密》等多首作品中出现。",
-        media: "https://placehold.co/600x400/8B4513/FFFFFF/png?text=大提琴"
+        media: "./images/大提琴.jpg"
     },
     {
         id: 99,
@@ -893,7 +893,7 @@ const questionBank = [
         options: ["水手怕水", "牛仔很忙", "公公偏头痛", "鞋子特大号"],
         answer: 0,
         explanation: "水手服造型出自《水手怕水》。",
-        media: "https://placehold.co/600x400/0000FF/FFFFFF/png?text=水手服"
+        media: "./images/水手怕水.jpg"
     },
     {
         id: 100,
@@ -902,7 +902,7 @@ const questionBank = [
         options: ["Mr.J义法厨房", "PHANTACi", "Deja Vu", "J大侠中华料理"],
         answer: 0,
         explanation: "Mr.J义法厨房是周杰伦开设的著名餐厅。",
-        media: "https://placehold.co/600x400/333333/FFFFFF/png?text=Mr.J餐厅"
+        media: "./images/Mr.J义法厨房.jpg"
     }
 ];
 
