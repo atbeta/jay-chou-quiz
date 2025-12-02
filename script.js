@@ -17,6 +17,7 @@ const pages = {
 };
 
 // Quiz Elements
+const difficultyBadgeEl = document.getElementById('difficulty-badge');
 const questionNumEl = document.getElementById('current-question-num');
 const scoreEl = document.getElementById('current-score');
 const timerFillEl = document.getElementById('timer-fill');
@@ -100,6 +101,15 @@ function loadQuestion() {
     optionsContainerEl.innerHTML = '';
     mediaAreaEl.innerHTML = '';
     mediaAreaEl.classList.add('hidden');
+
+    // Update difficulty badge
+    const difficultyText = {
+        'easy': '简单',
+        'medium': '中等',
+        'hard': '困难'
+    };
+    difficultyBadgeEl.textContent = difficultyText[q.difficulty] || '中等';
+    difficultyBadgeEl.className = 'difficulty-badge ' + q.difficulty;
 
     // Handle Media
     if (q.type === 'image' && q.media) {
